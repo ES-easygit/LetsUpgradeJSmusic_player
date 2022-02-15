@@ -1,0 +1,128 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+ width:100%;
+ height: 100vh; 
+ /*background-color:#df1cdf;*/
+ display: flex;
+}
+.section1{
+  width: 70%;
+  height: 100vh;
+  background-color:#2D283D;
+  /*background-color: #2B7A78;*/
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;   
+    color: white; 
+}
+
+.audios{
+  height: 720px;
+  width: 100%;
+  /*background-color:gray;*/
+  padding-left: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  column-gap: calc(3%/2);
+  row-gap: 20px;
+}
+
+.audio{
+  height: auto;
+  min-height: 400px;
+  width: 28%;
+  background-color: #802BB1;
+  border-radius: 10px;
+  overflow: hidden;
+  /*background-color: #17252A;*/
+}
+
+.audio_img{
+  width: 100%;
+  height: 250px;
+  /*background-color: aquamarine;*/
+  overflow: hidden;
+}
+.audio_img>img{
+  width: 100%;
+}
+.audio_detail{
+  padding: 10px;
+}
+.audio_title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.btn{
+  padding: 7px 35px;
+  margin-top: 5px;
+  margin-left: 65px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: white;
+  border: 2px solid white;
+  color: #1f0537;
+}
+
+::-webkit-scrollbar{
+  width: 6px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* music playing css*/
+.section2{
+  width: 30%;
+  height: 100vh;
+  background-color:#802BB1;
+  /*background-color: #17252A;*/
+  padding: 50px;
+  justify-content: center;
+}
+
+.thumbnail{
+   width: 100%;
+   height: 400px;
+   overflow: hidden;
+   border-radius: 30px;
+}
+
+.thumbnail > img{
+  width: 100%;
+}
+
+.songs{
+  width:100%;
+  margin-top: 20px;
+}
+
+.songs_details{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-top: 20px;
+  font-size: 40px;
+}

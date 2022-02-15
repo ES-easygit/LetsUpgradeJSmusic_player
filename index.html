@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+ <section class="container">
+     <div class="section1">
+         <header class="header">
+           <p>ListenIn</p>
+         </header>
+
+         <div class="audios">
+             <div class="audio">
+               <div class="audio_img">
+                 <img src="./images/backstreet-boys-thumbnail.png">
+               </div>
+               <div class="audio_detail">
+                 <h1 class="audio_title" >One Love - BackStreet Boys</h1>
+                 <button class="btn" onclick="playAudio(1)">Play</button>
+               </div>
+             </div>
+
+             <div class="audio">
+               <div class="audio_img">
+                <img src="./images/bajrangibhaijaan.jpg">
+               </div>
+               <div class="audio_detail">
+                <h1 class="audio_title">Bhardo Jholi- Adnan Sami</h1>
+                <button class="btn" onclick="playAudio(2)">Play</button>
+               </div>
+              </div>
+
+              <div class="audio">
+                <div class="audio_img">
+                  <img src="./images/brokenangel.jpeg">
+                </div>
+                <div class="audio_detail">
+                  <h1 class="audio_title">Broken Angel - Arash</h1>
+                  <button class="btn" onclick="playAudio(3)">Play</button>
+                </div>
+              </div>
+
+              <div class="audio">
+                <div class="audio_img">
+                  <img src="./images/ed_sharan.jpeg">
+                </div>
+                <div class="audio_detail">
+                  <h1 class="audio_title">ed_sharan - Ed Sharan</h1>
+                  <button class="btn" onclick="playAudio(4)">Play</button>
+                </div>
+              </div>
+
+              <div class="audio">
+                <div class="audio_img">
+                  <img src="./images/guru.webp">
+                </div>
+                <div class="audio_detail">
+                  <h1 class="audio_title">Barso Re - Shreya Ghoshal</h1>
+                  <button class="btn" onclick="playAudio(5)">Play</button>
+                </div>
+              </div>
+
+              <div class="audio">
+                <div class="audio_img">
+                  <img src="./images/kedarnath.jpeg">
+                </div>
+                <div class="audio_detail">
+                  <h1 class="audio_title">Namo Namo - Amit Trivedi</h1>
+                  <button class="btn" onclick="playAudio(6)">Play</button>
+                </div>
+              </div>
+
+              <div class="audio">
+                <div class="audio_img">
+                  <img src="./images/pk.jpeg">
+                </div>
+                <div class="audio_detail">
+                  <h1 class="audio_title">Bhagwaan Hai - Sonu Nigam</h1>
+                  <button class="btn" onclick="playAudio(7)">Play</button>
+                </div>
+              </div>
+
+              <div class="audio">
+                <div class="audio_img">
+                  <img src="./images/rangdebasanti.jpg">
+                </div>
+                <div class="audio_detail">
+                  <h1 class="audio_title">Luka Chhupi - Lata Mangeshkar</h1>
+                  <button class="btn" onclick="playAudio(8)">Play</button>
+                </div>
+              </div>
+
+              <div class="audio">
+                <div class="audio_img">
+                  <img src="./images/taal-et00055411-30-03-2017-06-27-40.webp">
+                </div>
+                <div class="audio_detail">
+                  <h1 class="audio_title">Taal Se Taal - Alka Yagnik</h1>
+                  <button class="btn" onclick="playAudio(9)">Play</button>
+                </div>
+              </div>
+
+         </div>
+         
+     </div>
+
+     <!-- Section - 2 -->
+
+     <div class="section2">
+       
+         <div class="thumbnail">
+           <img id="img" src="./images/taal-et00055411-30-03-2017-06-27-40.webp">
+         </div>
+         <audio class="songs" id="sng" src="./Songs/Taal Se Taal Lyrical - Taal _ Aishwarya Rai, Akshaye Khanna, Anil Kapoor _A R Rahman _ Anand Bakshi.mp3" controls></audio>
+         
+         <h1 class="songs_details" id="title1">Taal Se Taal - Alka Yagnik</h1>
+    </div>
+ </section>
+
+
+  <script src="./index.js"></script>
+</body>
+</html>
